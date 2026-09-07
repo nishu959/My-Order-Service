@@ -8,3 +8,8 @@ server:
 logging:
   level:
     org.codesnippet.ecomorderservice.client: DEBUG
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
